@@ -10,6 +10,9 @@ Stash: It is used to store the changes made in working directory temporarily but
 
 ## Commands executed for practical
 
+
+### Creating Repository ------------------------------------------------------------------------------------------------
+
 mkdir test_operation
 
 cd test_operation
@@ -44,6 +47,8 @@ git status
 
 ls
 
+### Pull request from github ------------------------------------------------------------------------------------------------
+
 git status
 
 git add .
@@ -65,6 +70,8 @@ git add .
 git commit -m  "c1 in pull_to"
 
 git push origin pull_to
+
+### Rebase -------------------------------------------------------------------------------------------------------------------
 
 git checkout -b feature1
 
@@ -110,6 +117,8 @@ git push -f
 
 clear
 
+### Change commit message ----------------------------------------------------------------------------------------------------
+
 git status
 
 git branch
@@ -133,6 +142,8 @@ git push
 git commit --amend -m "commit message changed"
 
 git push origin feature1 -f
+
+### Cherry Pick ---------------------------------------------------------------------------------------------------------------
 
 git commit -am "cherry picked from feature1"
 
@@ -179,6 +190,8 @@ git branch
 git push
 
 git checkout -
+
+### Drop Commit -------------------------------------------------------------------------------------------------------------
 
 git status
 
