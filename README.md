@@ -1,3 +1,13 @@
+## Basic understanding of terms
+
+Rebase: Applies commits of a whole branch over another branch.
+
+Cherry Pick: When you want apply a commit from another branch to your current branch, just grab the commit by id.
+
+Pull Request: These are by developers when they completed working on particular branch and now wants to merge them with main.
+
+Stash: It is used to store the changes made in working directory temporarily but do not want to commit them.
+
 ## Commands executed for practical
 
 mkdir test_operation
